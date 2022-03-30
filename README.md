@@ -9,13 +9,18 @@ Objectives:
 Required images:
 - wheel
 - gear0, gear1, ..., gear5
-- engine-static (static part)
-- engine-moving (moving part)
+- engine-cylinder (static part)
+- engine-piston (moving part)
 - emoticon-low (xx eyes)
 - emoticon-high (fire eyes)
 - speedometer-background
 - tachometer-background
-- gauge-pointer
+- tachometer-pointer
+- speedometer-pointer
+
+Useful resources:
+- Inkscape
+- [svg gear generator](https://evolventdesign.com/pages/spur-gear-generator) 
 
 ## Step 1: learn with miniprojects
 
