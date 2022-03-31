@@ -1,0 +1,91 @@
+.wheel {
+    position: fixed;
+    top: 70%;
+    left: 5%;
+    height: 80%;
+}
+
+.gear {
+    position: fixed;
+    top: 60%;
+    left: 25%;
+    height: 30%;
+}
+
+.spur {
+    position: fixed;
+    top: 60%;
+    left: 31%;
+    height: 30%;
+}
+
+.speed.background {
+    position: fixed;
+    top: 10%;
+    left: 7%;
+    height: 70%;
+}
+
+.tach.background {
+    position: fixed;
+    top: 10%;
+    left: 53%;
+    height: 70%;
+}
+
+.speed.pointer {
+    position: fixed;
+    top: 11.7%;
+    left: 27.5%;
+    height: 35%;
+}
+
+.tach.pointer {
+    position: fixed;
+    top: 11.7%;
+    left: 74%;
+    height: 35%;
+}
+
+.number {
+    position: fixed;
+    top: 17%;
+    left: 51.5%;
+    height: auto;
+    font-size: xx-large;
+    border: solid 1px;
+}
+
+.engine.cylinder {
+    position: fixed;
+    bottom: 5%;
+    height: 40%;
+}
+
+.engine.cylinder.left {
+    left: 5%;
+}
+
+.engine.cylinder.right {
+    right: 5%;
+}
+
+.engine.piston {
+    position: fixed;
+    bottom: 40%;
+    height: 56%;
+}
+
+.engine.piston.left {
+    left: 13%;
+}
+.engine.piston.right {
+    right: 13%;
+}
+
+
+
+
+
+
+

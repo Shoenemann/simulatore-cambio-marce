@@ -1,0 +1,13 @@
+.engine.piston {
+    animation: pump 400ms linear infinite alternate;
+}
+
+.engine.piston.right {
+    animation-delay: 400ms;
+}
+
+@-webkit-keyframes pump {
+    100% {
+        transform:translateY(140px)
+    }
+}
