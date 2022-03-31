@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="100%"
-   height="100%"
-   viewBox="0 0 1060 600"
+   width="148.82001"
+   height="148.82001"
+   viewBox="0 0 148.82001 148.82001"
    preserveAspectRatio="xMinYMin meet"
    version="1.1"
    id="svg7"
@@ -23,9 +23,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="0.86666667"
-     inkscape:cx="530.19231"
-     inkscape:cy="300.57692"
+     inkscape:zoom="1.2256518"
+     inkscape:cx="143.59707"
+     inkscape:cy="170.11357"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -34,33 +34,33 @@
      inkscape:current-layer="svg7" />
   <rect
      id="svgEditorBackground"
-     x="0"
-     y="0"
+     x="72.376152"
+     y="70.145386"
      width="1060"
      height="600"
-     style="fill: none; stroke: none;" />
+     style="fill:none;stroke:none" />
   <circle
      id="e1_circle"
-     cx="81.649239"
-     cy="82.726158"
+     cx="74.410004"
+     cy="74.410004"
      style="fill:#008000;stroke:#000000;stroke-width:1px"
      r="73.910004" />
   <circle
      id="e2_circle"
-     cx="80.649239"
-     cy="82.726158"
+     cx="73.410004"
+     cy="74.410004"
      style="fill:#d3d3d3;stroke:#000000;stroke-width:1px"
      r="44.700001" />
   <circle
      id="e6_circle"
-     cx="80.639977"
-     cy="82.726158"
+     cx="73.400742"
+     cy="74.410004"
      style="fill:#000000;stroke:#000000;stroke-width:1px"
      r="12.05" />
   <circle
      id="e7_circle"
-     cx="84.565742"
-     cy="46.044743"
+     cx="77.273018"
+     cy="37.775459"
      style="fill:#8b0000;stroke:#000000;stroke-width:0.558223px"
      r="5.5822263"
      transform="rotate(0.36958951)" />
