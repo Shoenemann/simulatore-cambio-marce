@@ -6,8 +6,8 @@
     animation-delay: 400ms;
 }
 
-@-webkit-keyframes pump {
+@keyframes pump {
     100% {
-        transform:translateY(140px)
+        -webkit-transform:translateY(140px);
     }
 }
