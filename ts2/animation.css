@@ -1,0 +1,34 @@
+.wheel {
+    animation: rotazione-fromto 3s infinite linear;
+}
+
+@keyframes rotazione-fromto {
+    from {
+        transition: rotate(0deg);
+    }
+    to {
+        transition: rotate(359deg);
+        -webkit-transform:rotate(360deg);
+    }
+}
+
+.gear {
+    animation: rotazione-percent 2s infinite linear;
+    
+    transform-origin: 100px center;
+}
+
+@keyframes rotazione-percent {
+    100% {
+        -webkit-transform: rotate(-360deg);
+    }
+}
+
+.spur {
+    animation: rotazione-back 2s infinite linear;
+}
+@-webkit-keyframes rotazione-back {
+    100% {
+        transform: rotate(360deg);
+    }
+}
