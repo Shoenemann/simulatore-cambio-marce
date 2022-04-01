@@ -1,0 +1,19 @@
+.engine.piston {
+    animation: pump 400ms linear infinite alternate;
+}
+.engine.piston.right {
+    animation-delay: 400ms;
+}
+@keyframes pump {
+    100% {
+        -webkit-transform:translateY(140px);
+    }
+}
+
+.spur {
+    animation: rotate 4000ms linear infinite;
+}
+
+@keyframes rotate {
+    100% {-webkit-transform: rotate(359deg);}
+}
