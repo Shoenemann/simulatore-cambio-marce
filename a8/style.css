@@ -1,0 +1,109 @@
+.console-container {
+    background-color: rgb(41, 40, 43);
+    position:relative;
+    display: flex;
+    justify-content: space-evenly;
+    height: 240px;
+    padding: 20px;
+}
+.car-container {
+    background-color: antiquewhite;
+    position:relative;
+    display: flex;
+    height: 287px;
+    padding: 5px 0px;
+}
+
+/* In this file I do not want to display some objects */
+
+.gear,.spur,.speed,.wheel,.number,.cambio {
+    display: none;
+}
+
+
+/* Console: speedometer, gearnumber and tachometer */
+
+.numbers-container {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.number {
+    position: relative;
+    background-color: white;
+    top: 50px;
+    height: auto;
+    width: 130px;
+    font-size: xx-large;
+    border: solid 1px;
+    border-color: brown;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.speedometer,.tachometer {
+    background-color: black;    
+    position: relative;
+    padding: 20px;
+}
+
+.speed.background,
+.tach.background {
+    position: center center;
+    height: 400px;
+}
+
+.speed.pointer,
+.tach.pointer {
+    position: absolute;
+    left: 211px;
+    bottom: 14px;
+    height: 180px;
+    transform-origin: center 96%;
+}
+
+
+/* Car: wheel, gears and engine */
+
+.wheel-container,
+.gears-container,
+.engine-container {
+    border: 1px solid;
+    flex: 1 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wheel{
+    height: 200;
+}
+
+.gear,.spur {
+    -webkit-transition-duration: 0s;
+    transform: scale(2);
+}
+
+
+
+
+.engine.cylinder {
+    height: 100px;
+    margin-bottom: -130px;
+}
+
+.engine.cylinder.left {
+    margin-left: 58px;
+}
+
+.engine.piston {
+    width: 57px;
+    position: relative;
+    right: 77px;
+    bottom: 10px;
+}
+
+
+
+
+
+
