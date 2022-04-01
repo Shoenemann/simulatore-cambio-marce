@@ -28,12 +28,10 @@
     background-color: white;
     top: 50px;
     height: auto;
-    width: 130px;
     font-size: xx-large;
     border: solid 1px;
     border-color: brown;
     margin-bottom: 50px;
-    text-align: center;
 }
 
 .speedometer,.tachometer {
@@ -54,7 +52,6 @@
     left: 211px;
     bottom: 14px;
     height: 180px;
-    transform-origin: center 96%;
 }
 
 
@@ -74,7 +71,6 @@
 }
 
 .gear,.spur {
-    -webkit-transition-duration: 0s;
     transform: scale(2);
 }
 
@@ -90,12 +86,18 @@
     margin-left: 58px;
 }
 
+
 .engine.piston {
     width: 57px;
     position: relative;
     right: 77px;
-    bottom: 10px;
+    bottom: -15px
 }
+
+.engine.piston.right {
+    transform: translateY(-50px);
+}
+
 
 
 

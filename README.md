@@ -50,4 +50,17 @@ Objectives:
 
 ## Step2: working product
 
+Objectives: 
+- display the functioning of the gear system
+- be a useful learning resource
+
+**Animations** required:
+- A1: wheel and speedometer
+- A2: engine and tachometer
+- A3: wheel, engine and static gears
+- A4: complete static gears system
+- A5: changing gears
+- A6: wheel, engine and changing gears
+- A7: complete changing gears system
+
 ## Step3: final touch
