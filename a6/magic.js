@@ -14,7 +14,7 @@ let isLeftKeyPressed = false
 
 let currentSpeed = 20
 
-let currentGear = 2
+let currentGear = 1
 let spurDents = [6,9,18,24,30]
 let filesSpurImages = spurDents.map((v) => `../images/spur${v}.svg`)
 const currentSpurDents = () => spurDents[currentGear-1]
