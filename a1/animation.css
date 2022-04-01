@@ -1,23 +1,34 @@
 .engine.piston {
-    animation: pump 400ms linear infinite;
+    animation: pump 40ms linear infinite;
 }
 .engine.piston.right {
-    animation-delay: -200ms;
+    animation-direction: reverse;
 }
 @keyframes pump {
-    50% {-webkit-transform:translateY(140px); }
+    0% {-webkit-transform:translateY(0px); }
+    25% {-webkit-transform:translateY(25px); }
+    75% {-webkit-transform:translateY(-25px); }
     100% {-webkit-transform:translateY(0px); }
 }
 
 .spur {
-    animation: rotate 4000ms linear infinite;
+    animation: rotateLarge 40ms linear infinite;
+}
+.gear {
+    animation: rotateLarge 40ms linear infinite ;
 }
 .wheel {
-    animation: rotate 3s infinite linear;
+    animation: rotate 40ms infinite linear;
 }
 
-@keyframes rotate {
-    100% {-webkit-transform: rotate(359deg);}
+
+
+@keyframes rotateLarge {
+    50% {-webkit-transform: rotate(179deg) scale(2); }
+    100% {-webkit-transform: rotate(358deg) scale(2); }
+}
+@keyframes rotate{
+    100% {-webkit-transform: rotate(358deg); }
 }
 
 
