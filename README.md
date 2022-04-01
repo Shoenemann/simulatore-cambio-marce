@@ -64,3 +64,5 @@ Objectives:
 - A7: complete changing gears system
 
 ## Step3: final touch
+
+- A8: implement the 'frizione'

@@ -70,12 +70,12 @@ document.addEventListener('keydown', function (e) {
             isLeftKeyPressed = true
             break
         case "ArrowUp":
-            //increaseGear()
-            //updateGear()
+            increaseGear()
+            updateGear()
             break
         case "ArrowDown":
-            //decreaseGear()
-            //updateGear()
+            decreaseGear()
+            updateGear()
             break
     }
 })

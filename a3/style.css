@@ -16,7 +16,7 @@
 
 /* In this file I do not want to display some objects */
 
-.gear,.spur,.speed,.wheel,.number,.cambio {
+.speed,.tach,.number,.cambio {
     display: none;
 }
 
